@@ -8,7 +8,7 @@ export default class Team {
   }
 
   // eslint-disable-next-line no-undef
-  * [Simbol.iterator]() {
+  * [Symbol.iterator]() {
     // eslint-disable-next-line no-restricted-syntax
     for (const i of this.characters) {
       yield i;
