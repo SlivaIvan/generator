@@ -1,3 +1,5 @@
+import Character from './character';
+
 export default class Team {
   constructor() {
     this.characters = [];
@@ -15,3 +17,7 @@ export default class Team {
     }
   }
 }
+
+const iTeam = new Team();
+
+iTeam.addCharacter(new Character('Name1', 'type', 1, 1, 1, 1));
